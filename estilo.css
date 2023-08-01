@@ -1,0 +1,123 @@
+.gallery-container{
+    text-align: center;
+}
+p{
+    color: var(--correserva);
+    text-align: center;
+}
+body{
+    background-color: var(--corsecundaria);
+}
+ul{
+    color: var(--corsecundaria);
+    font-family: Arial;
+}
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu-h{
+    list-style: none;
+    padding: 0;
+    background-color: var(--correserva);
+}
+#menu-h li{
+    display: inline;
+}
+#menu-h li a{
+    color: var(--corsecundaria);
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    font-family:minhafonte1;
+    font-size: 30px;
+    display: inline;
+    transition: background .6s;
+}
+#menu-h li a:hover{
+   background-color: var(--corterciaria);
+}
+li{
+    color: var(--corterciaria);
+    text-align: center;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.gallery-container{
+    text-align: center;
+}
+.gallery-items img{
+    margin: 20px;
+
+}
+
+footer{
+    background-color: var(--corterciaria);
+}
+:root{
+    --corprincipal:#453C67;
+    --corsecundaria:#6D67E4;
+    --corterciaria:#46C2CB;
+    --correserva:#F2F7A1;
+}
+nav{
+    background-color: var(--corterciaria);
+}
+h4{
+    text-align: left;
+    color: var(--correserva);
+}
+@font-face {
+    font-family:minhafonte;
+    src: url(Adventure.otf);
+}
+
+@font-face {
+    font-family:minhafonte1;
+    src: url(akaPosse.ttf);
+}
+h1{
+    color: var(--correserva);
+    text-align: center;
+    font-size: 80px;
+    font-family: minhafonte;
+}
+.gallery-container{
+    background-color: var(--correserva);
+}
+.neymar{
+    text-align: center;
+    background-color: var(--correserva);
+}
+h2{
+    text-align: center;
+    color: var(--correserva);
+    font-family: minhafonte;
+
+}
+.container{
+    margin: auto;
+    display: flex;
+    background-color: var(--corterciaria);
+}
+.container div{
+    display: inline-flex;
+    text-align: center;
+    width: auto;
+    margin: auto;
+    display: block;
+    border-color: var(--corterciaria);
+    text-align: right;
+    background-color: var(--corterciaria);
+}
+iframe{
+    border-color:var(--corprincipal) ;
+    border-style: solid;
+    border-radius: 30px;
+}
+

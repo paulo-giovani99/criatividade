@@ -1,0 +1,105 @@
+p{
+    color: var(--correserva);
+    text-align: center;
+    font-family: Arial;
+}
+body{
+    background-color: var(--corsecundaria);
+}
+ul{
+    color: var(--corsecundaria);
+    font-family: Arial;
+}
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menu-h{
+    list-style: none;
+    padding: 0;
+    background-color: var(--correserva);
+}
+#menu-h li{
+    display: inline;
+}
+#menu-h li a{
+    color: var(--corsecundaria);
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    font-family:minhafonte1 ;
+    font-size: 30px;
+    display: inline;
+    transition: background .6s;
+}
+#menu-h li a:hover{
+   background-color: var(--corterciaria);
+}
+li{
+    color: var(--corterciaria);
+    text-align: center;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.gallery-container{
+    text-align: center;
+}
+.gallery-items img{
+    margin: 20px;
+
+}
+h1{
+    color: var(--correserva);
+    text-align: center;
+    font-size: 80px;
+    font-family: minhafonte;
+}
+footer{
+    background-color: var(--corterciaria);
+}
+:root{
+    --corprincipal:#453C67;
+    --corsecundaria:#6D67E4;
+    --corterciaria:#46C2CB;
+    --correserva:#F2F7A1;
+}
+h2{
+    color: var(--correserva);
+    text-align: center;
+    font-family: minhafonte1;
+}
+nav{
+    background-color: var(--corterciaria);
+}
+@font-face {
+    font-family:minhafonte;
+    src: url(Adventure.otf);
+}
+
+@font-face {
+    font-family:minhafonte1;
+    src: url(akaPosse.ttf);
+}
+.gallery-container{
+    background-color: var(--correserva);
+}
+.container{
+    margin: auto;
+    display: flex;
+    background-color: #46C2CB;
+}
+.container div{
+    display: inline-flex;
+    text-align: center;
+    width: auto;
+    margin: auto;
+    display: block;
+    border-color: var(--correserva);
+    text-align: right;
+    background-color: #46C2CB;
+}
